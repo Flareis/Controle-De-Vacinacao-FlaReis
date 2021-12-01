@@ -1,0 +1,28 @@
+{
+  "name": "controle-de-vacinacao-flareis",
+  "version": "1.0.0",
+  "description": "Creation of an API Rest in Node.js for vaccination control, to have the vaccines always up to date.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Flareis/Controle-De-Vacinacao-FlaReis.git"
+  },
+  "author": "FlaviaDosReis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Flareis/Controle-De-Vacinacao-FlaReis/issues"
+  },
+  "homepage": "https://github.com/Flareis/Controle-De-Vacinacao-FlaReis#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.12.0-alpha.1"
+  }
+}
