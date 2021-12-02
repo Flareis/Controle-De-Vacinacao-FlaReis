@@ -52,7 +52,7 @@ const updateVaccine = async (req, res) => {
             where: {id:vaccineId}
         });
         if (rowsUpdate && rowsUpdate > 0){
-            res.status(200).send({message: `A vacina com o id: id: ${vaccineId} teve a situação de aplicada alterada.`})
+            res.status(200).send({message: `A vacina com o id: ${vaccineId} teve a situação de aplicada alterada.`})
         } else {
             res.status(404).send({message: `Não encontramos a vacina com id: ${vaccineId} para atualizá-la.`})
         }
